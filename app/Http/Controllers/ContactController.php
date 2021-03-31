@@ -50,7 +50,7 @@ class ContactController extends Controller
             'subject' => request('subject'),
             'message' => request('message')
         ]);
-        Mail::to('testcontact@quantum-markets.co.uk')->send(new ContactFormMail($data));
+        Mail::to('info@quantum-markets.co.uk')->send(new ContactFormMail($data));
         return redirect()->back()->with('message', 'Message sent successfully');
     }
     /**
