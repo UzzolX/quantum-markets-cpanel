@@ -47,6 +47,16 @@ button.btn.btn-primary {
 	font-size: 18px;
 	padding: 5px 25px;
 }
+.dropdown-menu.dropdown-menu-right.show a {
+    color: #172a3a !important;
+    transition: 0.3s;
+}
+
+.dropdown-menu.dropdown-menu-right.show a:hover {
+    background: #36ccba;
+    color: white !important;
+    transition: 0.3s;
+}
     </style>
 </head>
 <body>
