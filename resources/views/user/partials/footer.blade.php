@@ -6,11 +6,11 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                         <div class="top-left-footer">
                             <h4>Social Media</h4>
-                            <li data-aos="fade-right" data-aos-duration="800"><img src="{{asset('frontend-asstets/assets/image/footer icon/skype vector.svg')}}" alt=""><a href="">Skype</a> </li>
+                            {{-- <li data-aos="fade-right" data-aos-duration="800"><img src="{{asset('frontend-asstets/assets/image/footer icon/skype vector.svg')}}" alt=""><a href="">Skype</a> </li>
                             <li data-aos="fade-right" data-aos-duration="900"><img src="{{asset('frontend-asstets/assets/image/footer icon/twitter icon.svg')}}" alt=""><a href="">Twitter</a> </li>
-                            <li data-aos="fade-right" data-aos-duration="1000"><img src="{{asset('frontend-asstets/assets/image/footer icon/linkedin icon.svg')}}" alt=""><a href="">Linkedin</a> </li>
-                            <li data-aos="fade-right" data-aos-duration="1100"><img src="{{asset('frontend-asstets/assets/image/footer icon/instagram icon.svg')}}" alt=""><a href="">Instagram</a> </li>
-                            <li data-aos="fade-right" data-aos-duration="1200"><img src="{{asset('frontend-asstets/assets/image/footer icon/facebook icon.svg')}}" alt=""><a href="">Facebook</a> </li>
+                            <li data-aos="fade-right" data-aos-duration="1000"><img src="{{asset('frontend-asstets/assets/image/footer icon/linkedin icon.svg')}}" alt=""><a href="">Linkedin</a> </li> --}}
+                            <li data-aos="fade-right" data-aos-duration="1100"><img src="{{asset('frontend-asstets/assets/image/footer icon/instagram icon.svg')}}" alt=""><a target="_blank" href="https://www.instagram.com/quantummarkets/">Instagram</a> </li>
+                            {{-- <li data-aos="fade-right" data-aos-duration="1200"><img src="{{asset('frontend-asstets/assets/image/footer icon/facebook icon.svg')}}" alt=""><a href="">Facebook</a> </li> --}}
                         </div>
                     </div>
                     <div class="col-xl-4 footer-dn">
@@ -37,16 +37,16 @@
     <section class=" bottom-footer pt-50 pb-50" style="background-color: #19222B;">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="bottom-footer-left">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="bottom-footer-left text-center">
                         <p>Copyright © <a >2021</a> All Rights Reserved.</p>
                         <p>Quantum Markets Ltd. A company registered in England under Companies House Number: 12346505</p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="bottom-footer-right">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms & Conditions</a>
+                        {{-- <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a> --}}
                     </div>
                 </div>
             </div>
