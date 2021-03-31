@@ -32,7 +32,7 @@
                                 <span>OUR</span> ADDRESS
                             </h4>
                         </div>
-                        <div class="main-address" data-aos="fade-right" data-aos-duration="700">
+                        {{-- <div class="main-address" data-aos="fade-right" data-aos-duration="700">
                             <div class="single-address">
                                 <img src="{{asset('frontend-asstets/assets/image/contact/1.svg')}}" alt="">
                                 <div class="single-address-content">
@@ -49,7 +49,7 @@
                                     <p>(+44) 7375 018 586</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="main-address" data-aos="fade-right" data-aos-duration="700">
                             <div class="single-address">
                                 <img src="{{asset('frontend-asstets/assets/image/contact/3.svg')}}" alt="">
