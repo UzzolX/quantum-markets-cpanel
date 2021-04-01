@@ -7,7 +7,7 @@
 <div class="card card-custom">
     <div class="card-header">
         <h3 class="card-title">
-            Base Controls
+            User List
         </h3>
         <div class="card-toolbar">
             <div class="example-tools justify-content-center">
@@ -21,8 +21,7 @@
             <div class="alert alert-custom alert-default" role="alert">
                 <div class="alert-icon"><i class="flaticon-warning text-primary"></i></div>
                 <div class="alert-text">
-                    The example form below demonstrates common HTML form elements that receive updated styles from
-                    Bootstrap with additional classes.
+                    A section to view all the available user.
                 </div>
             </div>
         </div>

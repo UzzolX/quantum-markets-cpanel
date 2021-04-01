@@ -7,7 +7,7 @@
 
 	<base href="">
 	<meta charset="utf-8" />
-	<title>Quantum - @yield('title')</title>
+	<title>Quantum - Dashboard @yield('title')</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	@include('admin.partials.global.head')
 

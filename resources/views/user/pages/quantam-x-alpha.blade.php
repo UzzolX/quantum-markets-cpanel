@@ -28,7 +28,7 @@
                                     <h4>
                                         Need Help ?
                                     </h4>
-                                    <p>Please feel free to contact us. We will get back to you as soon as possible. Or just call us now
+                                    <p>Please feel free to contact us. We will get back to you as soon as possible.
                                     </p>
                                     <div class="responsive-pdf">
                                         @foreach(App\Brochure::latest()->limit(1)->get() as $cat)
