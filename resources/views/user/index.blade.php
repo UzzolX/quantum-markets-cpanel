@@ -149,10 +149,10 @@
                                 </h2>
                             </div>
                             <div class="top-features-content">
-                                <p>Investors always look for best investment opportunities, sometimes they need to take
-                                    the risk associated with a specific investment opportunity in order to have gain
-                                    returns. We are offering an investment opportunity where initial investment and
-                                    inherent risk are both low with a huge upside potential.</p>
+                                <p>Investors always look for the best investment opportunities. Sometimes, they are
+                                    required to take the risk which is associated with a specific investment opportunity
+                                    in order to have gain returns. We offer an investment opportunity where initial
+                                    investment and inherent risk are both low, but have a huge upside potential.</p>
                             </div>
                         </div>
                     </div>
@@ -161,8 +161,8 @@
                             <div class="features-single-box" data-aos="flip-down" data-aos-duration="1000">
                                 <img src="{{asset('frontend-asstets/assets/image/features/1.svg')}}" alt="">
                                 <p>There is no setup fee, management fee or hidden costs. We will only get a share of
-                                    your monthly profits which means we are biased to ensure we successfully deliver
-                                    positive results. </p>
+                                    your monthly profits, meaning we are determined to ensure we deliver positive
+                                    results.</p>
                             </div>
                             <div class="features-single-box" data-aos="flip-down" data-aos-duration="1000">
                                 <img src="{{asset('frontend-asstets/assets/image/features/2.svg')}}" alt="">
@@ -170,13 +170,12 @@
                             </div>
                             <div class="features-single-box" data-aos="flip-down" data-aos-duration="1000">
                                 <img src="{{asset('frontend-asstets/assets/image/features/3.svg')}}" alt="">
-                                <p>We have a proven and verified track record that shows consistent returns month after
-                                    month.</p>
+                                <p>We have a verified track record that shows consistent returns month after month.</p>
                             </div>
                             <div class="features-single-box" data-aos="flip-down" data-aos-duration="1000">
                                 <img src="{{asset('frontend-asstets/assets/image/features/4.svg')}}" alt="">
-                                <p>We currently service over 150 clients globally including professional, retail and
-                                    institutional clients.
+                                <p>We currently offer our services to over 150 clients globally, including professional,
+                                    retail and institutional clients.
                                     <p>
                             </div>
                         </div>
@@ -196,7 +195,8 @@
                             <span>Who</span>is this for
                         </h2>
                         <div class="title-content">
-                            <p>From strategy creation to strategy optimisation, we ensure longevity in what we do.</p>
+                            <p>From strategy creation to strategy optimisation, we ensure that our actions are
+                                consistent long term.</p>
                         </div>
                     </div>
                 </div>
@@ -210,9 +210,9 @@
                                         alt="">
                                 </div>
                                 <div class="thisfor-content">
-                                    <p>You know the potential of the markets but know where your limits are; be it in
-                                        experience or emotional involvement when trading and prefer trading to be
-                                        handled by professionals.</p>
+                                    <p>You know the potential of the markets but know acknowledge your limitations with
+                                        regards to experience or emotional involvement whilst trading, and prefer
+                                        trading to be handled by professionals, then this is the place for you.</p>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                 </div>
                                 <div class="thisfor-content">
                                     <p>You want to use your time on other endeavours and don’t have the time to analyse
-                                        the markets 24/7.</p>
+                                        the markets 24/7, then we are here to analyse them for you.</p>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
                                 </div>
                                 <div class="thisfor-content">
                                     <p>You understand that the market is setup for 98% of traders to fail. Usually, it
-                                        is you against your OWN broker.</p>
+                                        is you against your own broker, but join us and we will be this together.</p>
                                 </div>
                             </div>
                         </div>
@@ -292,8 +292,8 @@
                                     Deposit
                                 </h4>
                                 <p>
-                                    You will deposit funds into your own account with a regulated third-party broker
-                                    which we will provide a referral ID for. </p>
+                                    You will deposit funds into your own account with a regulated third-party broker,
+                                    which we will provide a referral ID for.</p>
                                 <div class="box-number">
                                     <span>1</span>
                                 </div>
@@ -310,8 +310,8 @@
                                     Paperwork
                                 </h4>
                                 <p>
-                                    You will then sign a LPOA (Limited Power of Attorney) which allows us to trade on
-                                    your behalf.</p>
+                                    You will then sign a Limited Power of Attorney (LPOA) which will allow us to trade
+                                    on your behalf.</p>
                                 <div class="box-number">
                                     <span>2</span>
                                 </div>
@@ -328,7 +328,7 @@
                                     Funding
                                 </h4>
                                 <p>
-                                    Once all checks have been completed by the broker you will then fund your account
+                                    Once all checks have been completed by the broker, you will then fund your account
                                     with a minimum of $5,000 USD. </p>
                                 <div class="box-number">
                                     <span>3</span>
@@ -392,13 +392,12 @@
                     </div>
                     <div class="row">
                         <div class="work-content">
-                            <p>Another major advantage of a Managed Account is the fact that you as an investor have
-                                complete control of your deposits, withdrawals and can start and stop when you like. Not
-                                everyone understands this. </p>
-                            <p>When you open a Managed Account, you control the amount of funds you deposit. There may
-                                well be a minimum account opening balance, but at the end of the day, you have control
-                                of how much you deposit above the initial entry
-                                amount.
+                            <p>Another major advantage of having a managed account is that you, as an investor, have
+                                complete control of your deposits and withdrawals. You can start and stop trading
+                                whenever you like. </p>
+                            <p>When you open a managed account, you control the amount of funds you deposit. There is a
+                                minimum account opening balance, but ultimately, you control how much you deposit above
+                                the initial required balance.
                             </p>
                         </div>
                     </div>

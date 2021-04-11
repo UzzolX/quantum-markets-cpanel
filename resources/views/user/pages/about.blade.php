@@ -24,10 +24,17 @@
                                 <h2>About US</h2>
                             </div>
                             <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
-                                <p>Quantum Markets are specialists in algorithmic trading, we offer a variety of investment opportunities for those who wish to explore alternative investments within the Foreign Exchange Markets.
+                                <p>
+                                    Quantum Markets are specialists in algorithmic trading, we offer a variety of
+                                    investment opportunities for those who wish to explore alternative investments
+                                    within the Foreign Exchange Markets.
                                 </p>
-                                <p>Together with our highly talented team of developers, analysts and traders we have developed systematic trading methods that have shown consistency in profits and security of funds throughout a long period of time. The
-                                    algorithmic systems we have developed have undergone testing in various market conditions in order to find the most suitable conditions to execute trades in.
+                                <p>
+                                    Together, with our highly talented team of developers, analysts and traders, we have
+                                    developed systematic trading methods that have shown consistency in profits and
+                                    security of funds throughout a long period of time. The algorithmic systems we have
+                                    developed have undergone testing in various market conditions in order to find the
+                                    most suitable conditions to execute trades in.
                                 </p>
                             </div>
                         </div>
@@ -41,7 +48,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="about-image-title-top" data-aos="zoom-in" data-aos-duration="1000">
-                        <span>We value ourselves on 4 core points:</span>
+                        <span>We value ourselves on 4 points:</span>
                     </div>
                 </div>
             </div>
@@ -66,8 +73,10 @@
                                             Fundamental and Technical Analysis:
                                         </h5>
                                         <p>
-                                            Not only are the markets scanned manually by our experienced team but we then apply this knowledge into our algorithms to ensure stability of trading. This analysis done by our team drives our long-term strategies in order for us to gain an upper hand
-                                            in the short term.
+                                            Not only are the markets scanned manually by our experienced team, but we
+                                            then apply this knowledge into our algorithms to ensure stability of
+                                            trading. This analysis which is done by our team, drives our long-term
+                                            strategies in order for us to gain an upper hand in the markets short-term.
                                         </p>
                                     </div>
                                 </div>
@@ -91,8 +100,13 @@
                                             Limitations and Restrictions:
                                         </h5>
                                         <p>
-                                            In order for us to better diversify our client’s portfolios we ensure that our investments are spread across various currencies pairs, this allows us to diversify our risk in the unlikely event of a market crash. Our algorithms are built in order to obtain
-                                            news and market data reading at a speed of 1,000 callbacks a minute from a variety of external sources which allows us to gain knowledge of any news that may put our investment is risk of loss.
+                                            For us to better diversify our client’s portfolios, we ensure that our
+                                            investments are spread across various currencies pairs, allowing us to
+                                            diversify our risk in the unlikely event of a market crash. Our algorithms
+                                            are built to obtain news and market data, reading at a speed of 1,000
+                                            call-backs a minute from a variety of external sources, permitting us to
+                                            gain knowledge of any updates that may put our investments at a risk of
+                                            loss.
                                         </p>
                                     </div>
                                 </div>
@@ -127,8 +141,10 @@
                                             Risk Management:
                                         </h5>
                                         <p>
-                                            At Quantum Markets we are firm believers in honesty and integrity. As such, we value our clients and their risk appetite. In order to build a long-term partnership with our clients we will always adhere to the risk appetite of each and individual investor
-                                            and their stated maximum drawdown levels.
+                                            At Quantum Markets we are firm believers in honesty and integrity. As such,
+                                            we value our clients and their risk appetite. To build a long-term
+                                            partnership with our clients, we will always adhere to the risk appetite of
+                                            each individual investor and their stated maximum drawdown levels.
                                         </p>
                                     </div>
                                 </div>
@@ -152,8 +168,12 @@
                                             Identifying Opportunities:
                                         </h5>
                                         <p>
-                                            The success of the investment activities of the Fund will depend on the algorithms ability to identify investment opportunities, exploit price discrepancies in the financial markets and assess the importance of news and events that may affect the financial
-                                            market conditions. Assessment of the current conditions through our algorithms allow us to maximise returns based on current market sentiment.
+                                            The success of our investment activities depends on the algorithms ability
+                                            to identify investment opportunities, exploit price discrepancies in the
+                                            financial markets and assess the importance of news and events that may
+                                            affect the financial market conditions. Assessment of the current conditions
+                                            through our algorithms allow us to maximise returns based on current market
+                                            sentiment.
                                         </p>
                                     </div>
                                 </div>
@@ -179,8 +199,10 @@
                     <div class="col-xl-6">
                         <div class="about-bottom-content" data-aos="fade-right" data-aos-duration="1000">
                             <p>
-                                At Quantum Markets we are always looking at ways to improve and optimize our strategies in order to trade successfully through changing market conditions. As such we have set ourselves benchmarks against 2 major funds; Barclays Hedge Index and S&P Total
-                                Returns Index with the view of outperforming these funds on a month by month bas is.
+                                At Quantum Markets we are always looking at ways to improve and optimize our strategies
+                                to trade successfully through changing market conditions. Thus, we have set ourselves
+                                benchmarks against two major funds; Barclays Hedge Index and S&P Total Returns Index,
+                                with the goal of outperforming these funds on a month by month basis.
                             </p>
                         </div>
                     </div>
@@ -191,10 +213,10 @@
                                 To find out more about the strategies that are used to invest in the Foreign Exchange Market please click here how we perform against other funds
                             </p>
                             <a href="{{route('alpha.index')}}"><button>
-                                <div class="submit">
-                                    Click Here<i class="ti-arrow-right"></i>
-                                </div>
-                            </button></a>
+                                    <div class="submit">
+                                        Click Here<i class="ti-arrow-right"></i>
+                                    </div>
+                                </button></a>
                         </div>
                     </div>
                 </div>

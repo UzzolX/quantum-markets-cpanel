@@ -38,8 +38,8 @@
                                                 <span>download now</span>
                                             </div>
                                         </a>
-                                         @endforeach
-                                            
+                                        @endforeach
+
                                     </div>
                                 </div>
                             </div>
@@ -49,8 +49,10 @@
                                     <div class="BROCHURE">
                                         <h5>GET THE BROCHURE </h5>
                                         <div class="icon">
-                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/1.svg')}}" alt="">
-                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/2.svg')}}" alt="">
+                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/1.svg')}}"
+                                                alt="">
+                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/2.svg')}}"
+                                                alt="">
                                         </div>
                                         <p>Download the pdf file of latest update for this service.
                                         </p>
@@ -58,8 +60,8 @@
                                 </a>
                                 @endforeach
 
-                                    
-                               
+
+
                             </div>
 
                         </div>
@@ -68,7 +70,8 @@
                                 <div class="row d-flex align-items-center mb-40">
                                     <div class="col-xl-5 col-md-4">
                                         <div class="strategy-image-letf" data-aos="fade-right" data-aos-duration="1000">
-                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/1.png')}}" alt="">
+                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/1.png')}}"
+                                                alt="">
                                         </div>
                                     </div>
                                     <div class="col-xl-7 col-md-8" data-aos="fade-left" data-aos-duration="1000">
@@ -76,23 +79,34 @@
                                             <h2> STRATEGY</h2>
                                         </div>
                                         <div class="strategy-detail">
-                                            <p>The Quantum-X algorithm has been developed to take advantage of market swing points that are witnessed within the Forex markets during times of high volatility. The algorithm has been developed to trade when
-                                                markets conditions are stable and performs various checks which need to be true in order for a trade to be executed. It has proven ability to perform during a long period of time and is used across various
-                                                forex pairs in order to find the most suitable pair(s) for it to execute trades.
+                                            <p>The Quantum-X algorithm has been developed to take advantage of market
+                                                swing points which are witnessed within the Forex markets during times
+                                                of high volatility. The algorithm has been developed to trade when
+                                                markets conditions are stable, and they perform various checks which are
+                                                required to be true in order for a trade to be executed. It has been
+                                                proven to perform during long periods of time and is used across various
+                                                forex pairs in order to find the most suitable pair(s) for it to execute
+                                                trades.
                                             </p>
-                                            <p>The strategy used within the algorithm looks for potential swing points at highs or lows for current market session before comparing these points to historical swing points to determine an advantage in the market.
+                                            <p>The strategy used within the algorithm analyses potential swing points,
+                                                comparing the highs and lows for current market sessions to historical
+                                                swing points, and this provides us with an advantage in the market.
                                             </p>
-                                            <p>The system is built on over 8,000 lines of coding with each line operating a separate function for optimum results.
+                                            <p>The system is built on more than 8,000 lines of coding, with each line
+                                                operating a different function to provide optimum results.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row d-flex align-items-center">
                                     <div class="col-xl-7 col-md-8" data-aos="fade-right" data-aos-duration="1000">
-                                        <h2> ACTIVE SESSIONS</h2>
+                                        <h2>ACTIVE SESSIONS</h2>
                                         <div class="strategy-detail">
-                                            <p>After testing on many different timeframes and testing during different times of the day, we have analyzed data and come to a realization that the algorithm works best after the US session comes to an end and
-                                                during the Australian and Tokyo sessions as low volatility in the markets allows the algorithm to trade better as well as limiting drawdown levels in order to provide stable returns on investment.
+                                            <p>After testing on many different time-frames, we have analysed data and
+                                                come to a realization that the algorithm works best after the US session
+                                                comes to an end and during the Australian and Tokyo sessions, as low
+                                                volatility in the markets allows the algorithm to trade better, limiting
+                                                drawdown levels and providing stable returns on investments.
                                             </p>
                                         </div>
 
@@ -100,7 +114,8 @@
                                     </div>
                                     <div class="col-xl-5 col-md-4 ">
                                         <div class="strategy-image-letf" data-aos="fade-left" data-aos-duration="1000">
-                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/2.png')}}" alt="">
+                                            <img src="{{asset('frontend-asstets/assets/image/Quantam_X_Alpha/2.png')}}"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -123,40 +138,40 @@
                         </div>
                         <canvas id="myChart2" style="max-width: 600px; max-height: 400px;"></canvas>
                         <script>
-                        var urll = "{{url('stock/piechartjson')}}";
-                        var Pielabel = new Array();
-                        var Pielabels = new Array();
-                        var Piedata = new Array();
-                        $(document).ready(function () {
-                            $.get(urll, function (response) {
-                                response.forEach(function (data) {
-                                    Pielabel.push(data.label_1);
-                                    Pielabels.push(data.labels_1);
-                                    Piedata.push(data.data_1);
+                            var urll = "{{url('stock/piechartjson')}}";
+                            var Pielabel = new Array();
+                            var Pielabels = new Array();
+                            var Piedata = new Array();
+                            $(document).ready(function () {
+                                $.get(urll, function (response) {
+                                    response.forEach(function (data) {
+                                        Pielabel.push(data.label_1);
+                                        Pielabels.push(data.labels_1);
+                                        Piedata.push(data.data_1);
+                                    });
+                                    var ctx = document.getElementById('myChart2').getContext('2d');
+                                    var myChart = new Chart(ctx, {
+                                        type: 'pie',
+                                        data: {
+                                            labels: Pielabels,
+                                            datasets: [{
+                                                label: "Our Overview",
+                                                backgroundColor: ["#172A3A ", "#36cbba",
+                                                    "#3581b8", "#13505b",
+                                                    "#333333"
+                                                ],
+                                                data: Piedata
+                                            }]
+                                        },
+                                        options: {
+                                            title: {
+                                                display: true,
+
+                                            }
+                                        }
+                                    });
                                 });
-                                var ctx = document.getElementById('myChart2').getContext('2d');
-                                var myChart = new Chart(ctx, {
-                                type: 'pie',
-                                data: {
-                                    labels: Pielabels,
-                                    datasets: [{
-                                        label: "Our Overview",
-                                        backgroundColor: ["#172A3A ", "#36cbba", "#3581b8", "#13505b",
-                                            "#333333"
-                                        ],
-                                        data: Piedata
-                                    }]
-                                },
-                                options: {
-                                    title: {
-                                        display: true,
-
-                                    }
-                                }
                             });
-                            });
-                        });
-
 
                         </script>
                     </div>
@@ -232,7 +247,9 @@
                 </div>
                 <div class="row">
                     <div class="algorithm-content-start">
-                        <p>Prior to any trades being executed by the algorithm, it will perform a conditioning check to ensure that all points for a correct entry are met. The check points are stated below with an example of checks performed and a short
+                        <p>Prior to any trades being executed by the algorithm, it will perform a conditioning check to
+                            ensure that all points for a correct entry are met. The check points are stated below with
+                            an example of checks performed and a short
                             description of these checks prior to a buy signal being executed:</p>
                     </div>
                 </div>
@@ -243,7 +260,9 @@
                             <div class="single-box-algorithm">
                                 <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000">
                                     <h4>Correlation check</h4>
-                                    <p>How many max orders to be opened in the same direction for the same pair. Currently, our settings are indicating 2 orders max per pair in same direction.</p>
+                                    <p>How many max orders to be opened in the same direction for the same pair.
+                                        Currently, our settings are indicating 2 orders max per pair in same direction.
+                                    </p>
                                 </div>
                                 <div class="box-number-algorithm">
                                     <span>Check 1 </span>
@@ -252,16 +271,19 @@
                             <div class="single-box-algorithm">
                                 <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000">
                                     <h4>Bollinger Bands check</h4>
-                                    <p>BB volatility is calculated by measuring the difference between the Upper Bollinger band - Lower Bollinger Band and this is compared with Volatility measure that is entered manually in the pair settings.</p>
+                                    <p>BB volatility is calculated by measuring the difference between the Upper
+                                        Bollinger band - Lower Bollinger Band and this is compared with Volatility
+                                        measure that is entered manually in the pair settings.</p>
                                 </div>
-                                <div class="box-number-algorithm" >
+                                <div class="box-number-algorithm">
                                     <span>Check 3 </span>
                                 </div>
                             </div>
                             <div class="single-box-algorithm">
                                 <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000">
                                     <h4>Spread Check</h4>
-                                    <p>The final check is the spread, after all the above are true, if the spread is less than the max allowed spread, then the buy order is opened.</p>
+                                    <p>The final check is the spread, after all the above are true, if the spread is
+                                        less than the max allowed spread, then the buy order is opened.</p>
                                 </div>
                                 <div class="box-number-algorithm">
                                     <span>Check 5 </span>
@@ -275,20 +297,27 @@
                                 <div class="box-number-algorithm line-one">
                                     <span>Check 2 </span>
                                 </div>
-                                <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000" style="	margin-left: 30px;">
+                                <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000"
+                                    style="	margin-left: 30px;">
                                     <h4> Volatility check</h4>
-                                    <p>The volatility is calculated by (HighLow) in pips of the day. And this is compared with the max allowed volatility that were entered manually in the setting of the pair.
+                                    <p>The volatility is calculated by (HighLow) in pips of the day. And this is
+                                        compared with the max allowed volatility that were entered manually in the
+                                        setting of the pair.
                                     </p>
                                 </div>
                             </div>
                             <div class="single-box-algorithm">
-                                <div class="box-number-algorithm line-one" >
+                                <div class="box-number-algorithm line-one">
                                     <span>Check 4 </span>
                                 </div>
-                                <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000" style="	margin-left: 30px;">
+                                <div class="box-content-algorithm" data-aos="fade-left" data-aos-duration="1000"
+                                    style="	margin-left: 30px;">
                                     <h4> Bollinger Bands with CCI check</h4>
-                                    <p>If the Ask price is less than a price that is generated by going below the lower band of the Bollinger band by a certain distance that's entered manually in the pairs settings, and this condition should be happening
-                                        while the CCI is below a certain level also entered manually in the pairs settings.
+                                    <p>If the Ask price is less than a price that is generated by going below the lower
+                                        band of the Bollinger band by a certain distance that's entered manually in the
+                                        pairs settings, and this condition should be happening
+                                        while the CCI is below a certain level also entered manually in the pairs
+                                        settings.
                                     </p>
                                 </div>
                             </div>
@@ -298,7 +327,9 @@
                 <!---all-box-algorithm-start--->
                 <div class="row">
                     <div class="algorithm-content-start">
-                        <p>Should all the conditions meet then the algorithm will be given the go ahead to begin executing trades. The trades are then split into frequencies to ensure maximum profits with minimal risk.</p>
+                        <p>Should all the conditions meet then the algorithm will be given the go ahead to begin
+                            executing trades. The trades are then split into frequencies to ensure maximum profits with
+                            minimal risk.</p>
                     </div>
                 </div>
             </div>
@@ -335,61 +366,62 @@
                         <div class="Cumulative-profit" data-aos="fade-left" data-aos-duration="1000">
                             {{-- <canvas id="myChart_profit" width="1600" height="900"></canvas> --}}
                             <canvas id="myChart3" style="max-width: 600px; max-height: 600px;"></canvas>
-                        <script>
-                            /*charts table*/
-                            var url3 = "{{url('stock/barchartjson')}}";
-                            var Linelabel = new Array();
-                            var Linelabels = new Array();
-                            var Linedata = new Array();
-                            $(document).ready(function () {
-                                $.get(url3, function (response) {
-                                    response.forEach(function (data) {
-                                        console.log(response);
-                                        Linelabel.push(data.label_1);
-                                        Linelabels.push(data.labels_1);
-                                        Linedata.push(data.data_1);
-                                    });
-                                    var ctx = document.getElementById('myChart3').getContext('2d');
-                                    var myChart = new Chart(ctx, {
-                                        type: 'line',
-                                        data: {
-                                            labels: Linelabels,
-                                            datasets: [{
-                                                label: '# of Votes',
-                                                data: Linedata,
-                                                backgroundColor: [
-                                                    '#36cbba'
-                                                ],
+                            <script>
+                                /*charts table*/
+                                var url3 = "{{url('stock/barchartjson')}}";
+                                var Linelabel = new Array();
+                                var Linelabels = new Array();
+                                var Linedata = new Array();
+                                $(document).ready(function () {
+                                    $.get(url3, function (response) {
+                                        response.forEach(function (data) {
+                                            console.log(response);
+                                            Linelabel.push(data.label_1);
+                                            Linelabels.push(data.labels_1);
+                                            Linedata.push(data.data_1);
+                                        });
+                                        var ctx = document.getElementById('myChart3').getContext('2d');
+                                        var myChart = new Chart(ctx, {
+                                            type: 'line',
+                                            data: {
+                                                labels: Linelabels,
+                                                datasets: [{
+                                                    label: '# of Votes',
+                                                    data: Linedata,
+                                                    backgroundColor: [
+                                                        '#36cbba'
+                                                    ],
 
-                                            }]
-                                        },
-                                        options: {
-                                            scales: {
-                                                yAxes: [{
-                                                    ticks: {
-                                                        beginAtZero: true
-                                                    }
                                                 }]
+                                            },
+                                            options: {
+                                                scales: {
+                                                    yAxes: [{
+                                                        ticks: {
+                                                            beginAtZero: true
+                                                        }
+                                                    }]
+                                                }
                                             }
-                                        }
+                                        });
                                     });
                                 });
-                            });
 
-                        </script>
+                            </script>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-100 mb-100 responsive-table">
                     <div class="col-lg-12">
-                        <div class="Monthly-Return-Table bgcolor pb-100 pt-100 pl-50 pr-50" data-aos="fade-up" data-aos-duration="1000">
-                            
-                        <div class="title-mrt">
-                            <h3>
-                                Monthly Return Table
-                            </h3>
-                        </div>
-                        
+                        <div class="Monthly-Return-Table bgcolor pb-100 pt-100 pl-50 pr-50" data-aos="fade-up"
+                            data-aos-duration="1000">
+
+                            <div class="title-mrt">
+                                <h3>
+                                    Monthly Return Table
+                                </h3>
+                            </div>
+
                             <table class="table mian-mrt">
                                 <thead>
                                     <tr>
@@ -428,7 +460,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
-                            
+
                         </div>
                     </div>
                 </div>
